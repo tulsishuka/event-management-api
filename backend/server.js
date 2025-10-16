@@ -3,15 +3,12 @@ const cors = require('cors');
 
 const app = express();
 
-// Middleware
 app.use(cors());         
 app.use(express.json());   
 
-// Import route handlers
 const userRoutes = require('./routes/users');     
 const eventRoutes = require('./routes/events');   
 
-// Route middlewares
 app.use('/users', userRoutes);
 app.use('/events', eventRoutes);
 
