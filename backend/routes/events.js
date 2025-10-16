@@ -60,7 +60,6 @@ router.get('/:id', async (req, res) => {
     }
 });
 
-// register for event
 
 router.post('/:id/register', async (req, res) => {
     const { id } = req.params;
@@ -90,7 +89,6 @@ router.post('/:id/register', async (req, res) => {
     }
 });
 
-// cancel event
 router.delete('/:id/cancel', async (req, res) => {
     const { id } = req.params;
     const { userId } = req.body;
