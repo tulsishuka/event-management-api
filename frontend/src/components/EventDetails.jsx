@@ -12,30 +12,7 @@ const EventDetails = () => {
     };
 
     return (
-        // <div>
-        //     <h2>Event Details</h2>
-        //     <input
-        //         type="number"
-        //         placeholder="Event ID"
-        //         value={eventId}
-        //         onChange={(e) => setEventId(e.target.value)}
-        //     />
-        //     <button onClick={fetchEvent}>Get Details</button>
-
-        //     {event && (
-        //         <div>
-        //             <h3>{event.title}</h3>
-        //             <p>Date & Time: {new Date(event.datetime).toLocaleString()}</p>
-        //             <p>Location: {event.location}</p>
-        //             <h4>Registered Users:</h4>
-        //             <ul>
-        //                 {event.registeredUsers.map(user => (
-        //                     <li key={user.id}>{user.name} ({user.email})</li>
-        //                 ))}
-        //             </ul>
-        //         </div>
-        //     )}
-        // </div>
+     
         <div className="bg-white p-8 rounded-xl shadow-lg max-w-md mx-auto mt-12">
   <h2 className="text-2xl font-semibold text-gray-800 mb-6 text-center">
     Event Details
