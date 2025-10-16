@@ -21,16 +21,7 @@ const CreateUser = ({ onUserCreated }) => {
   };
 
   return (
-    // <div>
-    //   <h2>Create User</h2>
-    //   <input placeholder="Name" value={name} onChange={e => setName(e.target.value)} />
-    //   <input placeholder="email" type="email" value={email} onChange={e => setEmail(e.target.value)} />
-    //   <select value={role} onChange={e => setRole(e.target.value)}>
-    //     <option value="user">User</option>
-    //     <option value="admin">Admin</option>
-    //   </select>
-    //   <button onClick={handleSubmit}>Create User</button>
-    // </div>
+ 
 
     <div className="bg-white p-8 rounded-xl shadow-lg max-w-md mx-auto mt-12">
   <h2 className="text-2xl font-semibold text-gray-800 mb-6 text-center">
